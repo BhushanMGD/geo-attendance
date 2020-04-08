@@ -1,0 +1,2 @@
+rootProject.name='GEO ATTENDACE'
+include ':app'
