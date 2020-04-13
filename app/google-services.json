@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "482399172416",
+    "firebase_url": "https://geo-attendance-ad867.firebaseio.com",
+    "project_id": "geo-attendance-ad867",
+    "storage_bucket": "geo-attendance-ad867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482399172416:android:a4c4712cc00e9408ececa5",
+        "android_client_info": {
+          "package_name": "com.gmvcs.geoattendace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482399172416-10g75o86vkhcuejav6f3igmrtq9e1uuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Q50ItmvKFtJ0U3DXs9pEUt6TcmzxvCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482399172416-10g75o86vkhcuejav6f3igmrtq9e1uuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
