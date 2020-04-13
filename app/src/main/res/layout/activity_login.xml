@@ -38,6 +38,7 @@
         android:hint="Mobile Number"
         android:inputType="phone"
         android:maxHeight="30dp"
+        android:maxLength="10"
         android:maxLines="1"
         android:padding="20dp"
         android:textColor="@color/white"
