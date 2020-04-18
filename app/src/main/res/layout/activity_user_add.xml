@@ -13,7 +13,7 @@ android:layout_height="match_parent"
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="User Name">
+        android:hint="First name">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -21,6 +21,20 @@ android:layout_height="match_parent"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:hint="Last name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -92,6 +106,44 @@ android:layout_height="match_parent"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:hint="Gender"/>
+    <TextView
+        android:padding="4dp"
+        android:id="@+id/Gender"
+        android:textSize="18sp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender" />
+    <RadioGroup
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <RadioButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="Male"
+       android:id="@+id/male"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:layout_weight="1"
+        android:id="@+id/female"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:layout_weight="1"
+        android:id="@+id/other"/>
+    </RadioGroup>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
