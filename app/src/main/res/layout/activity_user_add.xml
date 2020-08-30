@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="vertical"
-android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient"
+<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
     android:padding="8dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textField"
-        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="First name">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameEditText"
+            android:maxLines="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -23,12 +24,13 @@ android:layout_height="match_parent"
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:background="@color/white"
         android:layout_marginTop="8dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_height="wrap_content"
         android:hint="Last name">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -39,12 +41,13 @@ android:layout_height="match_parent"
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:background="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="8dp"
         android:layout_height="wrap_content"
         android:hint="Email ID">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -53,12 +56,13 @@ android:layout_height="match_parent"
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:background="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="8dp"
         android:layout_height="wrap_content"
         android:hint="Mobile No">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mobileNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -67,12 +71,13 @@ android:layout_height="match_parent"
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:background="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="8dp"
         android:layout_height="wrap_content"
-        android:hint="class name">
+        android:hint="Class Name">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/className"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -81,26 +86,13 @@ android:layout_height="match_parent"
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:background="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginTop="8dp"
         android:layout_height="wrap_content"
-        android:hint="Year">
+        android:hint="College Id Number">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:background="@color/white"
-        android:layout_marginTop="8dp"
-        android:layout_height="wrap_content"
-        android:hint="college Id number">
-
-        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/collegeId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -114,13 +106,13 @@ android:layout_height="match_parent"
         android:hint="Gender"/>
     <TextView
         android:padding="4dp"
-        android:id="@+id/Gender"
         android:textSize="18sp"
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Gender" />
     <RadioGroup
+        android:id="@+id/genderRadioGroup"
         android:orientation="horizontal"
         android:background="@color/white"
         android:layout_width="match_parent"
@@ -145,10 +137,9 @@ android:layout_height="match_parent"
         android:id="@+id/other"/>
     </RadioGroup>
     <Button
+        android:id="@+id/signUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:textColor="@android:color/white"
         android:layout_margin="12dp"
         android:text="sign Up"/>
 

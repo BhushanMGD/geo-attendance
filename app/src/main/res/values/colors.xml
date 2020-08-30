@@ -10,4 +10,9 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
     <color name="bg_grey">#BDBDBD</color>
+    <color name="light_grey">#DCDCDC</color>
+    <color name="black">#000000</color>
+
+
+
 </resources>
