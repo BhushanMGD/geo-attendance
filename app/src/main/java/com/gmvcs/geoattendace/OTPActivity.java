@@ -29,6 +29,16 @@ import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * In this screen we will get Mobile number from intent sent by Login screen
+ * 1. get the mobile number
+ * 2. by using firebase try for login with mobile number
+ * 3. you will receive OTP
+ * 4. Enter the OTP into OTP editText
+ * 5. Verify OTP
+ * 6. On success of OTP preserve the login state into the app
+ * 7. then show main screen
+ */
 public class OTPActivity extends AppCompatActivity {
     private static final String TAG = "OTPActivity";
     TextView mobileNumberText;
@@ -48,18 +58,24 @@ public class OTPActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp_acitivity);
+        //init firebase
+        mAuth = FirebaseAuth.getInstance();
         //init views
         // Restore instance state
         if (savedInstanceState != null) {
             onRestoreInstanceState(savedInstanceState);
         }
         initViews();
-        initFirebase();
+
     }
 
     @Override
     protected void onStart() {
         super.onStart();
+
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        updateUI(currentUser);
 
         mCallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
             @Override
@@ -77,7 +93,7 @@ public class OTPActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onCodeSent(String s, PhoneAuthProvider.ForceResendingToken forceResendingToken) {
+            public void onCodeSent(@NonNull String s, @NonNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
                 super.onCodeSent(s, forceResendingToken);
 
                 verificationid = s;
@@ -86,6 +102,11 @@ public class OTPActivity extends AppCompatActivity {
 
 
         startPhoneNumberVerification("+91"+mobileNumber);
+    }
+
+    private void updateUI(FirebaseUser currentUser)
+    {
+
     }
 
     private void initViews() {
@@ -112,11 +133,6 @@ public class OTPActivity extends AppCompatActivity {
         });
     }//initViews
 
-    private void initFirebase() {
-        //intialized firebase auth
-        mAuth = FirebaseAuth.getInstance();
-
-    }//initFirebase
 
 
     private void startPhoneNumberVerification(String phoneNumber) {
@@ -127,7 +143,6 @@ public class OTPActivity extends AppCompatActivity {
                 TimeUnit.SECONDS,   // Unit of timeout
                 this,               // Activity (for callback binding)
                 mCallbacks);        // OnVerificationStateChangedCallbacks
-
 
     }
 

@@ -1,0 +1,87 @@
+<resources>
+    <dimen name="M_HEIGHT_OR_WIDTH_SMALLEST">4dp</dimen>
+    <dimen name="M_HEIGHT_OR_WIDTH_SMALL">8dp</dimen>
+    <dimen name="M_HEIGHT_OR_WIDTH_MID">12dp</dimen>
+    <dimen name="M_HEIGHT_OR_WIDTH_LARGE">16dp</dimen>
+    <dimen name="M_HEIGHT_OR_WIDTH_LARGEST">20dp</dimen>
+    <dimen name="M_HEIGHT_OR_WIDTH_XL">24dp</dimen>
+    <dimen name="M_HEIGHT_OR_WIDTH_XXL">28dp</dimen>
+    <dimen name="M_HEIGHT_OR_WIDTH_XXXL">32dp</dimen>
+    <!--******HERE ALL TEXT SIZES USED FOR APP******************-->
+    <dimen name="M_TEXT_SIZE_SMALLEST">10sp</dimen>
+    <dimen name="M_TEXT_SIZE_SMALL">12sp</dimen>
+    <dimen name="M_TEXT_SIZE_MID">14sp</dimen>
+    <dimen name="M_TEXT_SIZE_LARGE">16sp</dimen>
+    <dimen name="M_TEXT_SIZE_LARGEST">18sp</dimen>
+    <dimen name="M_TEXT_SIZE_XL">20sp</dimen>
+    <dimen name="M_TEXT_SIZE_XXL">22sp</dimen>
+    <dimen name="M_TEXT_SIZE_XXXL">24sp</dimen>
+    <!--********************************************************-->
+
+
+    <!--******HERE ALL MARGINS USED IN APP**********************-->
+    <dimen name="M_margin_smallest">4dp</dimen>
+    <dimen name="M_margin_small">8dp</dimen>
+    <dimen name="M_margin_mid">12dp</dimen>
+    <dimen name="M_margin_large">16dp</dimen>
+    <dimen name="M_margin_largest">20dp</dimen>
+    <!--********************************************************-->
+
+
+    <!--******HERE ALL PADDINGS USED IN APP**********************-->
+    <dimen name="M_PADDING_SMALLEST">4dp</dimen>
+    <dimen name="M_padding_small">8dp</dimen>
+    <dimen name="M_padding_mid">12dp</dimen>
+    <dimen name="M_PADDING_LARGE">16dp</dimen>
+    <dimen name="M_padding_largest">20dp</dimen>
+    <!--********************************************************-->
+
+
+    <!--******HERE ALL RADIUS USED IN APP**********************-->
+    <dimen name="radius_smallest">4dp</dimen>
+    <dimen name="radius_small">6dp</dimen>
+    <dimen name="radius_mid">8dp</dimen>
+    <dimen name="radius_large">10dp</dimen>
+    <dimen name="radius_largest">12dp</dimen>
+    <!--********************************************************-->
+
+    <dimen name="osp_image_height">150dp</dimen>
+    <!--********************************************************-->
+
+    <!--Floating Action button-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_normal">56dp</dimen>
+    <dimen name="fab_mini">40dp</dimen>
+
+    <!-- Typography-->
+    <dimen name="caption">12sp</dimen>
+    <dimen name="subtitle_reg">16sp</dimen>
+    <dimen name="subtitle_med">14sp</dimen>
+    <dimen name="button">14sp</dimen>
+    <dimen name="body1">16sp</dimen>
+    <dimen name="body2">14sp</dimen>
+    <dimen name="H1">96sp</dimen>
+    <dimen name="H2">60sp</dimen>
+    <dimen name="H3">48sp</dimen>
+    <dimen name="H4">34sp</dimen>
+    <dimen name="H5">24sp</dimen>
+    <dimen name="H6">20sp</dimen>
+
+    <!--Button-->
+    <dimen name="buttonRadius">4dp</dimen>
+    <dimen name="buttonElevation">4dp</dimen>
+    <dimen name="buttonStrokeWidth">2dp</dimen>
+
+
+    <!-- Alert Dialog-->
+    <dimen name="alert_radius">8dp</dimen>
+    <dimen name="alert_elevation">24dp</dimen>
+    <dimen name="alert_width_major">85%</dimen>
+    <dimen name="alert_width_minor">85%</dimen>
+    <dimen name="alert_padding_background">10dp</dimen>
+    <dimen name="alert_padding_notify">2dp</dimen>
+    <dimen name="alert_margin_start">5dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

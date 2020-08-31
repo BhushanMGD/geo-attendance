@@ -13,6 +13,17 @@
     <color name="light_grey">#DCDCDC</color>
     <color name="black">#000000</color>
 
+    <color name="backgroundColor">#BDBDBD</color>
+    <color name="textColorSecondary">#99000000</color><!--60% black-->
+    <color name="textColorPrimary">#DE000000</color>
+    <color name="error">#b00020</color>
+    <color name="red">#ff0000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="old_lavender">#727272</color>
+    <color name="noFocus">#afb8c7</color>
+    <color name="textColorPrimaryInverse">#99FFFFFF</color>
+
+
 
 
 </resources>

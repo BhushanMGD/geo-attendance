@@ -1,24 +1,16 @@
 package com.gmvcs.geoattendace;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.google.firebase.FirebaseException;
-import com.google.firebase.auth.PhoneAuthCredential;
-import com.google.firebase.auth.PhoneAuthProvider;
-
-import java.util.concurrent.TimeUnit;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 public class LoginActivity extends AppCompatActivity {
     EditText mobileNumber;
-    Button loginButton;
+    AppCompatButton loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "962681867412",
-    "firebase_url": "https://geo-attendance-274807.firebaseio.com",
-    "project_id": "geo-attendance-274807",
-    "storage_bucket": "geo-attendance-274807.appspot.com"
+    "project_number": "673577977039",
+    "firebase_url": "https://geo-attendance-b4918.firebaseio.com",
+    "project_id": "geo-attendance-b4918",
+    "storage_bucket": "geo-attendance-b4918.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:962681867412:android:0a5796c03fba5d14ebb881",
+        "mobilesdk_app_id": "1:673577977039:android:357cea9e671eaee811a3ba",
         "android_client_info": {
-          "package_name": "com.gmvcs.geoattendance"
+          "package_name": "com.gmvcs.geoattendace"
         }
       },
       "oauth_client": [
         {
-          "client_id": "962681867412-bokqijav5tgvdqj1vakg4v07ric4a3rc.apps.googleusercontent.com",
+          "client_id": "673577977039-0jloipfptk10s3ot7vqkm41dfvbvaguc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBkWwPGHaXjRO1ph0ix0xii0LJ9HSR7SUo"
+          "current_key": "AIzaSyDUrsW0Y8AiOnFihWcV_T5zOcAYczRwgsA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "962681867412-bokqijav5tgvdqj1vakg4v07ric4a3rc.apps.googleusercontent.com",
+              "client_id": "673577977039-0jloipfptk10s3ot7vqkm41dfvbvaguc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

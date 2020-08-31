@@ -1,56 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/M_PADDING_SMALLEST"
     tools:context=".MainActivity">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
 
-    android:orientation="horizontal">
     <LinearLayout
-        android:layout_weight="0.7"
         android:layout_width="match_parent"
-     android:gravity="center"
-        android:layout_height="50dp">
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/app_logo"/>
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_border_bg"
+        android:orientation="horizontal"
+        android:padding="@dimen/M_padding_small">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/app_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GMVITCS"
+                android:textAllCaps="true"
+                android:textAppearance="@style/GATextAppearance.Body.Medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="welcome mr.Bhushan Mahesh Gaikwad"
+                android:textAppearance="@style/GATextAppearance" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="punch In @12:30"
+                android:textAppearance="@style/GATextAppearance.Caption" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="andu pandu"
+                android:textAppearance="@style/GATextAppearance.Caption" />
+        </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_weight="0.3"
+
+    <HorizontalScrollView
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
 
-        android:layout_height="50dp">
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="gmvitcs"/>
+            android:layout_marginTop="@dimen/M_margin_small"
+            android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="welcome mr.Bhushan Mahesh Gaikwad"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="punch In @12:30"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="andu pandu"/>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="@dimen/M_margin_small"
+                android:background="@drawable/round_border_bg"></LinearLayout>
 
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="@dimen/M_margin_small"
+                android:background="@drawable/round_border_bg"></LinearLayout>
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="@dimen/M_margin_small"
+                android:background="@drawable/round_border_bg"></LinearLayout>
 
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="@dimen/M_margin_small"
+                android:background="@drawable/round_border_bg"></LinearLayout>
 
-
-</LinearLayout>
-
+        </LinearLayout>
+    </HorizontalScrollView>
 </LinearLayout>

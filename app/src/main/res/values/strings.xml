@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GEO ATTENDACE</string>
+
+    <!--Fonts-->
+    <string name="font_family_sans_serif">sans-serif</string>
+    <string name="font_family_sans_serif_medium">sans-serif-medium</string>
 </resources>
